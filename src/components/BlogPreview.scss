@@ -1,0 +1,17 @@
+article{
+    width: 100%;
+    img{
+        width: 100%;
+        min-width: 350px;
+        max-height: 233px;
+        object-fit: cover;
+        display: block;
+        border-radius: 10px;
+    }
+    h3{
+        font-family: 'roboto_b';
+        font-size: 1.5rem;
+        margin-block: 2vh;
+        color: #0D4625;
+    }
+}

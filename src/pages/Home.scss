@@ -1,0 +1,31 @@
+section{
+    .bgImage_wrap{
+        background: url(./../assets/img/bg_image.jpg);
+        background-size: cover;
+        height: 360px;
+    }
+    .inner_content{
+        max-width: 500px;
+        margin: 5vh 20%;
+        h2{
+            font-family: 'roboto_b';
+            color: #0D4625;
+            font-size: 2rem;
+            padding: 24px 0;
+        }
+        a{
+            font-family: 'roboto_b';
+            color: #219653;
+            font-size: 1rem;
+            padding: 8px 16px;
+            border: 3px solid #6FCF97;
+            border-radius: 8px;
+            text-decoration: none;
+            &:hover {
+                background-color: #6FCF97;
+                color: white;
+            }
+        }
+    }
+    
+}
