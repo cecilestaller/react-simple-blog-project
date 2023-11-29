@@ -1,6 +1,6 @@
 import BlogPreview from "../components/BlogPreview";
 import Nav from "../components/Nav";
-import blogData from "../data/BlogData";
+import blogData from "../data/blogData";
 import { v4 as uuidv4 } from 'uuid';
 import './Blog.scss'
 import Button from "../components/Button";
@@ -17,11 +17,6 @@ const Blog = () => {
                 <Link to="/blog/mypets">Read more</Link>
             </article>
             <section className="blogPreviewItems_wrap">
-                {/* <BlogPreview 
-                    img={blogData[0].img_url}
-                    author={blogData[0].author}
-                    title={blogData[0].title}
-                /> */}
 
                 
                 {blogData.map((blogObj) => {
