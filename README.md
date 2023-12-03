@@ -1,8 +1,38 @@
-# React + Vite
+# simple Blog 🐶🪴
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- This project was created as part of a Full-Stack Webdeveloper bootcamp from supercode.
 
-Currently, two official plugins are available:
+- The learning objective of the project:
+- internalize the creation of intuitive navigation with react-router-dom
+- the first dynamic creation of detail pages using the react npm package: react-router-dom
+- dynamic creation of blog previews with maps and props
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo Link
+
+https://react-simple-blog-project-cs.netlify.app/
+
+## Screenshots 📸
+
+![desktop version home](./src/assets/img/Home.png)
+![desktop version overview](./src/assets/img/overview.png)
+![desktop version detail](./src/assets/img/detail.png)
+
+## Copatible Screensizes
+
+- desktop
+
+## Tech Stack 💻
+
+- react
+- HTML
+- SCSS
+- vite
+- GitHub
+- netlify
+- JavaScript
+- GIT
+- react-router-dom
+
+## Author 🤵‍♀️
+
+- [@cecilestaller](https://github.com/cecilestaller)
