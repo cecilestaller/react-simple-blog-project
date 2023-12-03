@@ -1,4 +1,4 @@
-import Button from "./Button";
+
 import './BlogPreview.scss'
 
 const BlogPreview = (props) => {
@@ -6,9 +6,6 @@ const BlogPreview = (props) => {
         <article>
             <img src={props.img} alt={props.author} />
             <h3>{props.title}</h3>
-            <Button 
-            content={'Read more'}
-            />
         </article>
     );
 }
